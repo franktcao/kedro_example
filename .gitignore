@@ -40,8 +40,7 @@ out/
 
 # Vim
 *~
-.*.swo
-.*.swp
+.*.sw*
 
 # emacs
 *~

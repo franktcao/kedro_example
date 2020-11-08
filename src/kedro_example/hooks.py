@@ -35,8 +35,8 @@ from kedro.io import DataCatalog
 from kedro.pipeline import Pipeline
 from kedro.versioning import Journal
 
-from kedro_example.pipelines import data_engineering as de
-from kedro_example.pipelines import data_science as ds
+from .pipelines import data_engineering as de
+from .pipelines import data_science as ds
 
 
 class ProjectHooks:
